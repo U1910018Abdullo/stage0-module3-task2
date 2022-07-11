@@ -19,11 +19,11 @@ class NamingConventionTest {
         List<String> result = strings.stream()
                 .filter(line ->
                                 line.contains("variable ") ||
-                                line.contains("variable_one") ||
+                                line.contains("variableOne") ||
                                 line.contains("variableTwo") ||
-                                line.contains("variable_three") ||
-                                line.contains("VARIABLE_FOUR") ||
-                                line.contains("VARIABLE_FIVE") ||
+                                line.contains("variableThree") ||
+                                line.contains("variableFour") ||
+                                line.contains("variableFive") ||
                                 line.contains("variableSix") ||
                                 line.contains("variableSeven") ||
                                 line.contains("variableEight"))
